@@ -1,9 +1,9 @@
 .header-image {
+    margin-top: -22px;
     display: block;
     width: 100%;
     text-align: center;
-    /*background: url('https://s-media-cache-ak0.pinimg.com/736x/9b/0b/0b/9b0b0bfd11b93045027e95847fda8998.jpg') no-repeat center center scroll;*/
-background: url('https://santai.ichotels.com.tr/wp-content/uploads/2015/05/Miniclub3.jpg') no-repeat center center scroll;
+    background: url('https://santai.ichotels.com.tr/wp-content/uploads/2015/05/Miniclub3.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
