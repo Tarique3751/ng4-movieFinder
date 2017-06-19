@@ -9,8 +9,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class MovieComponent implements OnInit {
 
-  private movie: any;
-  constructor(private movieService: MovieService, private router: ActivatedRoute) { }
+  public movie: any;
+  constructor(public movieService: MovieService, public router: ActivatedRoute) { }
 
   ngOnInit() {
     this.router.params.subscribe((params) => {

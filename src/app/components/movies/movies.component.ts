@@ -11,12 +11,12 @@ import 'rxjs/add/operator/distinctUntilChanged';
 })
 export class MoviesComponent implements OnInit {
 
-  private popularList: any[];
-  private inTheatersList: any[];
-  private query: string;
-  private queryResults: any[];
+  public popularList: any[];
+  public inTheatersList: any[];
+  public query: string;
+  public queryResults: any[];
 
-  constructor(private movieService: MovieService) { }
+  constructor(public movieService: MovieService) { }
 
   ngOnInit() {
     this.movieService.getPopular().subscribe(res => {

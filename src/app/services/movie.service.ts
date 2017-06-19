@@ -5,9 +5,9 @@ import 'rxjs/Rx';
 @Injectable()
 export class MovieService {
 
-	private apiKey: string = '69705aee3fca5c731bd07fa027719283';
+	public apiKey: string = '69705aee3fca5c731bd07fa027719283';
 
-	constructor(private jsonp: Jsonp) {
+	constructor(public jsonp: Jsonp) {
 	}
 
 	getTodayDate() {
