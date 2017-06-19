@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+img{
+    width: 100%;
+}
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
